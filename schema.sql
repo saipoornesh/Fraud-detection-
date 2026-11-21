@@ -1,0 +1,1 @@
+CREATE TABLE transactions (id INTEGER PRIMARY KEY, transaction_id VARCHAR(100) UNIQUE, amount DOUBLE PRECISION, step INTEGER, risk_score DOUBLE PRECISION, risk_category VARCHAR(30), explanation TEXT, created_at TIMESTAMP);
